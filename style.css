@@ -1,31 +1,16 @@
 body {
-    text-align: center;
     font-family: Arial, sans-serif;
-    background-color: #F5EDF7;
-  }
-  
-  .header {
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-between;
-    font-size: 24px;
-    padding: 20px;
-    width: 80%;
-  }
-  
-  .header-left a, .header-right a {
-    text-decoration: none;
-    color: #333;
-    margin-right: 10px;
-  }
-  
-  .header-right {
-    margin-left: 90px
-  }
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 100px;
+    margin: 0;
+}
 
-  .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
+.fancy-text {
+    font-size: 24px;
+    color: #FF5733;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 5px;
+    font-weight: bold;
+}
